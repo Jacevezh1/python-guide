@@ -26,6 +26,10 @@ def run():
     #Imprimir valores de mi diccionario
     for pais in poblacion_paises.values():
         print(pais)
+    
+    #Imprimir ambos valores de mi diccionario
+    for pais, poblacion in poblacion_paises.items():
+        print(pais + ' tiene ' + str(poblacion) + ' habitantes ')
 
 
 if __name__ == '__main__':
